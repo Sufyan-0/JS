@@ -1,7 +1,19 @@
 // 1. Write a program that take two numbers & add them in a new variable. Show the result in your browser.
+let num1 =+prompt("Enter First Number")
+let num2 =+prompt("Enter Second Number")
+document.querySelector("#add").innerHTML=`Sum of ${num1} and ${num2} is ${num1 + num2}`
 // // 2. Repeat taskı for subtraction, multiplication, division & modulus. 
-// 3. Do the following using JS Mathematic Expressions a. Declare a variable.
+document.querySelector("#math1").innerHTML=`<p>sub of ${num1} and ${num2} is ${num1 - num2}</p>`
+document.querySelector("#math2").innerHTML=`<p>Multiplication of ${num1} and ${num2} is ${num1 * num2}</p>`
+document.querySelector("#math3").innerHTML=`<p>Divide of ${num1} and ${num2} is ${num1 / num2}</p>`
+document.querySelector("#math4").innerHTML=`<p>modules of ${num1} and ${num2} is ${num1 % num2}</p>`
+
+// 3. Do the following using JS Mathematic Expressions 
+// 
+// a. Declare a variable.
+let declareVariable = 6;
     //  b. Show the value of variable in your browser like "Value after variable declaration is : ??". 
+    document.querySelector('#variable').innerHTML = `Value after variable declaration is : ${declareVariable}`
     //    c. Initialize the variable with some number. 
     //    d. Show the value of variable in your browser like "Initial value : 5". 
     //    e. Increment the variable. f. Show the value of variable in your browser like "Value after increment is : 6". g. Add 7 to the variable. h. Show the value of variable in your browser like "Value after addition is : 13". 
