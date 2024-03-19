@@ -22,10 +22,10 @@ let name,age,qualification;
 //   A heading stating "Rules for naming JS variables" q
 document.querySelector("#main").innerHTML = "<h1>Rules for naming JS variables</h1>"
 //   b) Variable names can only contain and For example $my_1stVariable 
-document.querySelector("#main1").innerHTML = "<p>Variable names can only contain Numbers, $ , Underscore(_) For example $my_1stVariable </p>"
+document.querySelector("#main1").innerHTML = "Variable names can only contain Numbers, $ , Underscore(_) For example $my_1stVariable "
 //   c) Variables must begin with a mputing For example $name, _name or name 
-document.querySelector("#main2").innerHTML = "<p>Variables must begin with a letter or $ For example $name, _name or name </p>"
+document.querySelector("#main2").innerHTML = "Variables must begin with a letter or $ For example $name, _name or name "
 //   d) Variable names are case 
-document.querySelector("#main3").innerHTML = '<p>Variable names are case sensative </p>'
+document.querySelector("#main3").innerHTML = 'Variable names are case sensative '
 //   e) Variable names should not be JS
-document.querySelector("#main4").innerHTML = "<p>Variable names should not be JS Keyword</p> "
+document.querySelector("#main4").innerHTML = "Variable names should not be JS Keyword "

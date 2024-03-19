@@ -41,7 +41,11 @@ let declareVariable = 6;
     let buyTicket = 5
     document.querySelector("#movei").innerHTML = `Total Cost to buy ${buyTicket} to a movie ${movieTicket * buyTicket}PKR`
     // 5. Write a script to display multiplication table of any number in your browser. E.g
-
+    let i;
+    for (i=0 ; i <= 11 ; i++){
+       let table = 4;
+       console.log(`${table} X ${i} = ${table * i}` )
+    }
     // 6. The Temperature Converter : It's hot out! Let's make a converter based on the steps here. a. Store a Celsius temperature into a variable. b. Convert it to Fahrenheit & output "NNoC is NNoF". c. Now store a Fahrenheit temperature into a variable. d. Convert it to Celsius & output "NNoF is NN.C". Conversion 
     // Formulae : °C (°F-32)x5/9 °F = (°C x 9/5)+32 Computing
 
