@@ -20,7 +20,7 @@ let name,age,qualification;
 
 //  3. Display this in your browser a)
 //   A heading stating "Rules for naming JS variables" q
-document.querySelector("#main").innerHTML = "<h1>Rules for naming JS variables</h1>"
+document.querySelector("#main").innerHTML = "Rules for naming JS variables"
 //   b) Variable names can only contain and For example $my_1stVariable 
 document.querySelector("#main1").innerHTML = "Variable names can only contain Numbers, $ , Underscore(_) For example $my_1stVariable "
 //   c) Variables must begin with a mputing For example $name, _name or name 
