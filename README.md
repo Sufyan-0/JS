@@ -1,1 +1,1 @@
-## All javascript code here in this repo ClassCode, SelfLearning and practice and all assigmnetChapters here
+## All javascript code here in this repo ClassCode, SelfLearning and practice and all assignment Chapters here
