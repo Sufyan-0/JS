@@ -59,41 +59,70 @@
    console.log(`Celsius Temperation is  ${CelsiusTempValue}`)
     // Formulae : °C (°F-32)x5/9 °F = (°C x 9/5)+32 Computing
 
-    // 7. Write a program to implement checkout process of a shopping cart system for an e-commerce website. Store the following in variables
+    // 7. Write a program to implement checkout process of a shopping cart system for an e-commerce website.
+   //   Store the following in variables
     // a. Price of item 1 
+    let item1 = 100 
+    console.log(`Price of item 1 is : ${item1}`)
     // b. Price of item 2 
+    let item2 = 200
+    console.log(`price of item 2 is : ${item2}`);
     // c. Ordered quantity of item 1
+    let item1Quantity = 3
+    console.log(`Quantity of item 1 is ${item1Quantity}`);
     //  d. Ordered Quantity of item 2
+    let item2Quantity = 5
+   console.log(`Quantity of item 2 is : ${item2Quantity}`);
     //  e. Shipping charges 
+    let ShippingCharges = 80
+    console.log(`Shipping Charges is : ${ShippingCharges}`);
     // Compute the total cost & show the receipt in your browser.
-
+    let totalCharge = (item1*item1Quantity) + (item2*item2Quantity) + ShippingCharges
+console.log(`Your total charges is ${totalCharge}`);
 
    //  8. Store total marks & marks obtained by a student in 2 variables.
+   let totalMarks = 850;
+   let obtainedMarks = 795
    //  Compute the percentage & show the result in your browser
+   console.log(obtainedMarks*100/totalMarks)
 
 
    // 9. Assume we have 10 US dollars & 25 Saudi Riyals. 
-   // Write a script to convert the total currency to Pakistani Rupees. Perform all calculations in a single expression.
+   // Write a script to convert the total currency to Pakistani Rupees.
+   let US = 10 ;
+   let Riyals = 25 
+   // Perform all calculations in a single expression.
+   console.log(`total pakistani paisy : ${(US*104.80) + (Riyals*28)}PKR`);
    //  (Exchange rates : 1 US Dollar = 104.80 Pakistani Rupee and 1 Saudi Riyal = 28 Pakistani Rupee)
 
 
    // 10. Write a program to initialize a variable with some number and do arithmetic in following sequence :
+   let IntitalizeNumber = 10;
    //  a. Add 5 
+   IntitalizeNumber += 5  
    // b. Multiply by 10 
-   // c. Divide the result by 2 Perform all calculations in a single expression Sundu 
-
+   IntitalizeNumber *= 10
+   
+   // c. Divide the result by 2 Perform all calculations in a single expression  
+   IntitalizeNumber /= 2
+   console.log(IntitalizeNumber)
 
    // 11. The Age Calculator : Forgot how old someone Calculate it! 
    // a. Store the current year in a variable. 
+   let CurrentYear = 2024
    // b. Store their birth year in a variable. 
+   let BirthYear = 2004
    // c. Calculate their 2 possible ages base values.
+   console.log(` Your Age is ${CurrentYear - BirthYear}`);
    //  on the stored Output them to the screen like so : "They are either NN or NN years old".
 
 
 
    // 12. The Geometrizer : Calculate properties of a circle. 
    // a. Store a radius into a variable. 
+   let Radius = 20
    // b. Calculate the circumference based on the radius, and output "The circumference is NN". 
+   let Circumstences = 2()
    // (Hint : Circumference of a circle - 2πr, π- 3.142)
    //  Calculate the area based on the radius, and output “The area is NN". 
    // (Hint : Area of a circle = πr2, π = 3.142) -
