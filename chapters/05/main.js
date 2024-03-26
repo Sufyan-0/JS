@@ -122,18 +122,28 @@ console.log(`Your total charges is ${totalCharge}`);
    // a. Store a radius into a variable. 
    let Radius = 20
    // b. Calculate the circumference based on the radius, and output "The circumference is NN". 
-   let Circumstences = 2()
+    let circumstances = 2*3.142*Radius  
+    console.log(`The circumference is ${circumstances}`);
    // (Hint : Circumference of a circle - 2πr, π- 3.142)
    //  Calculate the area based on the radius, and output “The area is NN". 
+   let area = 3.142*Radius*Radius
+   console.log(`The area is ${area}`);
    // (Hint : Area of a circle = πr2, π = 3.142) -
 
 
    // 13. The Lifetime Supply Calculator : 
    // Ever wonder how much a "lifetime supply" of your favorite snack is?Wonder no more. 
    // a. Store your favorite snack into a variable 
+   let chips = "French Fries"
    // b. Store your current age into a variable. 
+   let currentAge = 20
    // c. Store a maximum age into a variable. 
+   let maximumAge = 60
    // d. Store an estimated amount per day (as a number). 
+   let estimatedAmount = 10
    // e. Calculate how many would you eat total for the rest of your life.
+   let remainAge = maximumAge - currentAge
+   let totalChipsNeeded = (remainAge*365)*estimatedAmount
    // Mo Output the result to the screen like so
    //  : "You will need NNNN to last you until the ripe old age of NN".
+   console.log(`You will need ${totalChipsNeeded} ${chips} to last you until the ripe old age of ${remainAge}`)
