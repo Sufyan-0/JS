@@ -1,13 +1,26 @@
 // 1. Write a program to take a number in a variable, do the required arithmetic to display the following result in your browser :
-
-
+let a = 10 ;
+console.log(`The Value of a is : ${a}`)
+console.log(`The Value of ++a is : ${++a}`);
+console.log(`Now The Value of a is : ${a}`)
+console.log(`The Value of a++ is : ${a++}`);
+console.log(`Now The Value of a is : ${a}`)
+console.log(`The Value of --a is : ${--a}`);
+console.log(`Now The Value of a is : ${a}`)
+console.log(`The Value of a-- is : ${a--}`);
+console.log(`Now The Value of a is : ${a}`)
 // M 2. What will be the output in variables a, b & result after execution of the following script
-//  : var a = 2, b = 1; var result = --a---b+++b+ b--; 
+  var a1 = 2, b = 1; 
+var result = --a1 - --b + ++b+ b--; //1-2 - 1-1 + 1+1 + 1 -1 
+console.log(-1+2 - 1+1 +1+1 + 1-1);
 // Explain the output at each stage :
-//  --a; 
-//  --a---b;
-//   --a - --b + ++b;
-//    --a --b+++b+ b--;
+--a1;   // -1 +2 = 1
+--a1 - --b; // a1 = -1 -1 = 0 , b = -1+1= 0  , 0-0 = 0 
+--a1 - --b + ++b; // a1 = -1 -0 = -1 , b = -1-0+ 1+0 = 0  , -1 0 
+--a1 - --b + ++b+ b--; //a1 = -1-1 = -2, b= - 1-0+1+0-0-1 = -1
+console.log(a1)
+console.log(b)
+console.log(result)
 
 
 // 3. Write a program that takes input a name from user & greet the user.
