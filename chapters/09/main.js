@@ -24,4 +24,16 @@
 // e. Delete the last color in the array.
 // Display the updated array in your browser. 
 // f. Ask the user at which index he/she wants to add a color & color name. 
-// Then add the color to desired
+// Then add the color to desired position/index.. Display the updated array in your browser. 
+// g. Ask the user at which index he/she wants to delete color(s) & how many colors he/she wants to delete. Then
+// remove the same number of color(s) from user-defined position/index.. Display the updated array in your browser.
+
+// 10.Write a program to store student scores in an array & sort the array in ascending order using Array's sort method. ting
+
+// 11. Write a program to initialize an array with city names. Copy 3 array elements from cities array to selected Cities array.
+
+// 12. Write a program to create a single string from the below mentioned 
+// array : 66 var arr = ["This ", " is ", " my ", " cat”]; (Use array's join method)
+
+// 13. Create a new array. Store values one by one in such a way that t you can access the values in the order in which they were stored.
+//  (FIFO-First In First Out)
