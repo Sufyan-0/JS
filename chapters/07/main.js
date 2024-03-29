@@ -1,22 +1,70 @@
 // 1. Write a program to take "city" name as input from user. If user enters "Karachi",
 //  welcome the user like this : "Welcome to city of lights"
+    // let CityName = prompt("Enter your City Name")
+    // alert(`Welcome to City of Lights`)
+
 // 2. Write a program to take "gender" as input from user.If the user is male, give the message
+    // let gender = prompt("Enter you Gender")
+    // let removespacesGender = gender.toLowerCase().split(" ").join("")
+    // console.log(`gender : ${removespacesGender}` )
+    // if (removespacesGender === "male"){
+    //     alert(`Good Morning sir`)
+    // }else if (removespacesGender === "female"){
+    //     alert("Good Morning Ma'am")
+    // }else{
+    //     alert("Spelling Mistake")
+    // }
 // : Good Morning Sir. If the user is female, give the message  : Good Morning Ma'am.
+
 // 3. Write a program to take input color of road traffic signal from the user & show the message
 // according to this table :
 
+    // let trafficColor = prompt("Enter Traffic Color").toLowerCase().split(" ").join("")
+    // console.log(trafficColor)
+    // if (trafficColor === "green"){
+    //     alert("Move Now")
+    // }else if (trafficColor === "yellow"){
+    //     alert("Ready to Move")
+    // }else if (trafficColor === "red"){
+    //     alert("Must Stop")
+    // }else{
+    //     alert("Something went wrong")
+    // }
+    
+
 // 4. Write a program to take input remaining fuel in car (in litres) from user.
 //  If the current fuel is less than 0.25litres, show the message "Please refill the fuel in your car"
+    // let  remainingFuel = +prompt("Enter Remaining Fuel in Liters")
+    // if(remainingFuel < 0.25){
+    //     alert("Please refill the fuel in your Car")
+    // }else{
+    //     alert("Enjoy Your journey")
+    // }
 // 5. Run this script, & check whether alert message would be } displayed or not. Record the outputs.
-//  a. var a = 4; if (++a=== 5){ alert("given condition for variable a is true");
-// } 
+//  a.
+    // var a = 4; if (++a=== 5){ alert("given condition for variable a is true")};   //showed means True 
+ 
 // b.
- var b= 82; 
-// if (b++ === 83){ alert("given condition for variable b is true"); 
-// c. var c= 12; if (c++ === 13){ alert("condition 1 is true"); } } } if (c === 13){ alert("condition 2 is true"); if (++c<14){ alert("condition 3 is true"); if(c === 14){ alert("condition 4 is true"); } 
-// d. var material Cost = 20000; var laborCost = 2000; var total Cost = material Cost + laborCost; if (total Cost === laborCost + material Cost){ alert("The cost equals"); } e. if (true){ alert("True"); } if (false){ alert("False"); }
-// f. if("car" "cat"){ alert("car is smaller than cat"); }
-
+    // var b= 82; 
+    // if (b++ === 83){ alert("given condition for variable b is true")}; 
+// c. 
+    // var c= 12; 
+    // if (c++ === 13){ alert("condition 1 is true"); } 
+    // if (c === 13){ alert("condition 2 is true")};    //showed Means true 
+    // if (++c<14){ alert("condition 3 is true")}; 
+    // if(c === 14){ alert("condition 4 is true"); }  //showed Means true 
+// d. 
+    // var materialCost = 20000; 
+    // var laborCost = 2000; 
+    // var totalCost = materialCost + laborCost; 
+    // if (totalCost === laborCost + materialCost)
+    // { alert("The cost equals"); }    //showed Means true 
+//  e.
+    // if (true){ alert("True"); }     //showed Means true 
+    // if (false){ alert("False"); }
+// f.
+    // if("car" =="cat"){ alert("car is smaller than cat"); }
+ 
 
 //  6. Write a program to take input the marks obtained in three subjects & total marks. 
 // Compute & show the resulting percentage on your page. Take percentage & compute grade as per following table :
