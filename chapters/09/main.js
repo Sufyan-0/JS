@@ -1,12 +1,21 @@
 // 1. Declare an empty array using JS literal notation to store student names in future.
+const student_names = [];
 //  2. Declare an empty array using JS object notation to store student names in future.
+const student_names_object = {};
 //  3. Declare and initialize a strings array.
+const fruit = ["apple", "banana", "orange"];
 //  4. Declare and initialize a numbers array.
+const NumberArray = [85, 92, 78];
 //  5. Declare and initialize a boolean array. 
+const booleanArray = [true, false, true];
 // 6. Declare and initialize a mixed array. 
+const MixsArray = ["Sufyan", 19, true, "developer"];
 
 //  7. Declare and Initialize an array and store available education qualifications in Pakistan
 //  (e.g. SSC, HSC, BCS, BS, BCOM, MS, M. Phil., PhD). Show the listed qualifications in your browser like :
+const educationQualifications = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M.Phil.", "PhD"];
+
+console.log("Available Qualifications:", educationQualifications);
 
 // 8. Write a program to store 3 student names in an array.Take another array to store score of these three students.
 //  Assume that total marks are 500 for each student, display the scores & percentages of students like :
@@ -34,6 +43,10 @@
 
 // 12. Write a program to create a single string from the below mentioned 
 // array : 66 var arr = ["This ", " is ", " my ", " cat”]; (Use array's join method)
+const words = ["This ", " is ", " my ", " cat"];
+const sentence = words.join("");
+
+console.log(sentence);
 
 // 13. Create a new array. Store values one by one in such a way that t you can access the values in the order in which they were stored.
 //  (FIFO-First In First Out)
