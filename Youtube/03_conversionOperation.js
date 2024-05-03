@@ -12,3 +12,14 @@ let bolean = Boolean(34)
 console.log(bolean) //true 
 
 // in bolean truthy and falsy method is using 
+
+
+// *******************Operation***********************
+
+// +  plus
+// -  minus
+// /  divide
+// * multiplay
+// **  power
+// %  reminder 
+
