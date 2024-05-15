@@ -26,7 +26,10 @@ console.log(gameName.repeat(2))  // repeat that variable means print multiple ti
 
 
 // replace
-// replaceALL
+console.log(gameName.replace("F" , "B")) // it will take two arguments first which word change second which one is replacement it will just replace first thing change just one 
+
+// replaceALL = > it is same as replace but it will replace on all string
+
 // search
 //slice
 //small
