@@ -31,11 +31,29 @@ console.log(gameName.replace("F" , "B")) // it will take two arguments first whi
 // replaceALL = > it is same as replace but it will replace on all string
 
 // search
+console.log(gameName.search("i")) //it will return starting index number of seraching value 
+
 //slice
-//small
+console.log(gameName.slice(0,5)) // it will slice string with index number taking starting and ending index 
+
+//small => depreciated
+
 // split 
-//startswith
-//sub
-//substr
+console.log(gameName.split("")) // it will split string to an array (and more just give value where to you want to split for an array)
+
+//startswith 
+console.log(gameName.startsWith("F")); // it will return true || false  if your string start with same what you gave
+
+//sub => depriciated
+//substr => depriciated
 //substring
-//value of 
+console.log(gameName.substring(1,4)); // it will return 1 index to 3 index from string
+
+//value of
+console.log(gameName.valueOf()) 
+
+// The valueOf() method returns the primitive value of a string.
+
+// The valueOf() method does not change the original string.
+
+// The valueOf() method can be used to convert a string object into a string.
