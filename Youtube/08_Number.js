@@ -11,3 +11,9 @@ console.log(num.toFixed(4)); // it will create floating point number with 4 numb
 console.log(Number(123333333).toLocaleString("ar-EG")) // it will convert as local amount typing what you give inside in toLocalstring
 
 console.log(Number(12.16534532).toPrecision(3)); // it will show lengt how much you written in to precision as a argument
+
+console.log(Number(12323.3232).valueOf()) // In JavaScript, a number can be a primitive value (typeof = number) or an object (typeof = object).
+
+// The valueOf() method is used internally in JavaScript to convert Number objects to primitive values.
+
+// There is no reason to use it in your code
