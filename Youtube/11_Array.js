@@ -37,3 +37,6 @@ let numArr = [1,2,3,[1,2,3,[1,2,3,[1,2,3,[1,2,3]]]]]
 console.log(numArr.flat(Infinity)) // it will create nested nested nested array to simple one array 
 
 console.log(Array.from("Sufyan")) // it will work same as split method
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+console.log(fruits.at(2));  // it will show 2 index value from array
