@@ -64,6 +64,9 @@ let arr2 = {
 const concat = Object.assign({}, arr1, arr2);
 // console.log(concat);
 
+const result = {...arr1 , ...arr2}
+console.log(result)
+
 // {{{{}{{{{{{{}}}}}}}}}}}
 
 const test = {
