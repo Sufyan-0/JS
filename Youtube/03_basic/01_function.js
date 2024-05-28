@@ -24,7 +24,6 @@ console.log(myFunc()) //NAN
 console.log(myFunc(2, 3)) // 5
 
 
-
 // defult parameter in function 
 
 
@@ -33,3 +32,22 @@ function myFunc1 (userName = "user"){
    return `${userName} just Logged in`
 }
 console.log(myFunc1("Sufyan")) 
+
+function restFunc (...num1){ // ... = rest parameter it will take all value and store in array 
+    return num1
+}
+console.log(restFunc(200,2,3,5,6,8,9,9,898)) 
+
+function objFunc(getObj){
+    return `Your name is this${getObj.name} and your age is ${getObj.age}`
+}
+console.log(objFunc({
+    name : "sufyan",
+    age : 20
+}))
+
+function arrFunc (getArr){
+    return getArr[1] // 400
+}
+
+console.log(arrFunc([200,400,500,600]))
