@@ -10,8 +10,8 @@ console.log(num.toFixed(4)); // it will create floating point number with 4 numb
 
 console.log(Number(123333333).toLocaleString("ar-EG")) // it will convert as local amount typing what you give inside in toLocalstring
 
-console.log(Number(12.16534532).toPrecision(3)); //  it will show 3 integer after round off and return it but if i say i need 3 value but i have for values before the point it will give me 3 value but after that it will give below is the example....
-console.log(Number(12232.43).toPrecision(3)) // 1.22e+4
+console.log(Number(12.16534532).toPrecision(3)); //  it will show 3 integer after round off and return it but if i say i need 3 value but i have 4 values before the point it will give me 3 value but after that it will give below is the example....
+console.log(Number(122.4367575765).toPrecision(3)) // 1.22e+4
 
 console.log(Number(12323.3232).valueOf()) // In JavaScript, a number can be a primitive value (typeof = number) or an object (typeof = object).
 
