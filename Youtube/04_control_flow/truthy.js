@@ -22,3 +22,22 @@ val = 0  ?? 10
 let val2 = 0 || 10
 console.log(val2);
 console.log(val);
+
+
+//  how to check array is empty
+
+let arr = []
+if (arr.length === 0){
+    console.log("EMPTY")
+}else{
+    console.log("have some value");
+}
+
+// how to check object is empty
+
+let obj = {}
+if(Object.keys(obj).length === 0){
+    console.log("Object is Empty");
+}else{
+    console.log("object havve value");
+}
