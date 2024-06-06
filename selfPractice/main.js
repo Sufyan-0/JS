@@ -1,10 +1,9 @@
 let x = 5;
 {
-    console.log(this.x);
-
-    let x = this.x
-    console.log(x);
+    let y = x
 }
 
 x += 1
-console.log(x); // Cannot access 'x' before initialization
+console.log(x); // now this is working well
+
+// if outer variable and inner varaibale name is same so it will give this error Cannot access 'x' before initialization
