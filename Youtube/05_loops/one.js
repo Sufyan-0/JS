@@ -25,3 +25,11 @@ for (let i = 1 ; i <= 10 ; i++){
         console.log(`${i} * ${j} = ${i*j}`);
     }
 }
+
+
+// loop on array  
+let arr = ["Sufyan" , "Abdullah" , "ahmed"]
+for (let i = 0 ; i < arr.length ; i++){
+    let arrElement= arr[i]
+    console.log(arrElement);
+}
