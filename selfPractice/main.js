@@ -10,3 +10,7 @@ console.log(x); // now this is working well
 
 
 // setting github in vscode in ubuntu
+
+
+
+
