@@ -25,3 +25,5 @@ const arrObj = [{
 arrObj.forEach((obj)=>{
     console.log(obj.name); // it will return names in arr obj 
 })
+
+// foreaxh kuch bhi return nhi karta hai 
