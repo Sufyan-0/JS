@@ -5,6 +5,15 @@ const obj = {
     field : "pre-Eng"
 }
 
-for (const key in obj) {
-   console.log(obj[key])
+// 1st way 
+let data = Object.keys(obj)
+console.log(data)
+
+
+// 2nd way 
+let key ;
+for (key in obj) {
+    console.log(obj[key]);
 }
+
+console.log("keys=>" ,[key]);
